@@ -1,19 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-/*Configuração de Backgronud-color*/
+/*Configuração de Back*/
 $indigo-default: indigo;
-$backgrand-nav-default: linear-gradient(180deg,#eeeeef,#bebdbd);
 
 $color-default: #fff;
+$black-color: #000;
 
 .bg-indigo-default {
 background-color: $indigo-default;
 }
-
-.backgrand-nav-default {
-    background-color: $backgrand-nav-default;
-}
 .navbar-default, .currentColor, .brand, .nav-link, .nav-link:hover, .nav-link:active{
- color: $color-default;
+ color: $black-color;
 }
 .navbar-toggler {
     border: 1px solid $color-default;
