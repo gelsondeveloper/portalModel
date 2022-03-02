@@ -19,3 +19,7 @@ $white-color: #fff;
 .currentColor {
 color: $black-color;
 }
+
+.navbar-default, .currentColor, .brand, .nav-link, .nav-link:hover, .nav-link:active{
+    color: $black-color;
+   }
