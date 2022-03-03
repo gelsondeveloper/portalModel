@@ -8,6 +8,9 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { SearchImputComponent } from './search-imput/search-imput.component';
 import { NavbarDefaultComponent } from './navbar-default/navbar-default.component';
 import { NavbarMinfinModelComponent } from './Menus/navbar-minfin-model/navbar-minfin-model.component';
+import { FlagListComponent } from './shared/flag-list/flag-list.component';
+import { LineGovAngolaComponent } from './shared/line-gov-angola/line-gov-angola.component';
+import { MainLineGovComponent } from './shared/main-line-gov/main-line-gov.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { NavbarMinfinModelComponent } from './Menus/navbar-minfin-model/navbar-m
     MainMenuComponent,
     SearchImputComponent,
     NavbarDefaultComponent,
-    NavbarMinfinModelComponent
+    NavbarMinfinModelComponent,
+    FlagListComponent,
+    LineGovAngolaComponent,
+    MainLineGovComponent
   ],
   imports: [
     BrowserModule,

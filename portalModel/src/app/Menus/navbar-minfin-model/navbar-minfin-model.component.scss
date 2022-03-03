@@ -9,8 +9,15 @@ $white-color: #fff;
     word-wrap: break-word;
     
 }
-
-.container {
+.container-minfin-brand {
+    display: flex;
+    justify-content: center;
+  img {
+      max-width: 100%;
+   
+  }
+}
+.container-minfin {
     border-bottom: 5px solid $black-color;
     padding: 20px 30px;
     color: $white-color;
