@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-main-menu',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainMenuComponent implements OnInit {
 
   constructor() { }
-
+  @Output() active = true;
   ngOnInit(): void {
   }
 

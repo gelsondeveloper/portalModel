@@ -4,11 +4,17 @@ $color-white: #fff;
 $height-30: 30px;
 .titleName {
     color: $color-white;
-    padding: 0px 5px;
+    padding: 0px 132px;
 }
 .line-top {
  background: $color-red-gradient;
     height: $height-30;
+    display: flex;
+    justify-content: center;
+    .roda-dentada{
+       position: absolute;
+       width: 40px;
+    }
 }
 .line-bottom {
     background-color: $color-back;
